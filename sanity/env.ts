@@ -23,4 +23,5 @@
 export const apiVersion = "v1";
 export const dataset = "production";
 export const projectId = "ofss244f";
+export const useCdn = process.env.NEXT_PUBLIC_USE_CDN === 'true'
 
